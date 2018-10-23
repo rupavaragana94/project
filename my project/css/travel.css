@@ -1,0 +1,133 @@
+body{
+	font-family: 'Kanit', sans-serif;
+} 
+
+	ul li{
+		list-style-type: none;
+		float: left;
+		color: white;
+
+	
+
+	}
+	.navbar-nav ul li a{
+		padding-bottom: 20px;
+
+	}
+	
+	ul li a{
+		text-decoration: none;
+		color: white;
+		background-color: none;
+		padding: 30px;
+		margin: 10px;
+		font-family: 'Leckerli One', cursive;
+
+
+
+	}
+	 a:hover{
+		text-decoration: none;
+		color: black;
+
+
+		
+	}
+	nav{
+		background-color: orange;
+		height: 60px;
+		padding-bottom: 30px;
+		
+		font-size: 20px;
+		position: fixed;
+
+	}
+	
+	nav li a {
+    position: relative;
+    
+    padding: 10px 15px;
+
+}
+ .bar li a:hover {
+    text-decoration: none;
+    background-color: transparent !important;
+    color: black;
+}
+	.navbar-brand{
+		text-decoration: none;
+		color: white;
+		padding: 10px;
+		margin-top: 10px;
+
+
+	}
+	.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 0px !important;
+    border: 1px solid transparent;
+}
+	
+	.c{
+		background-image: url(../images/maldives.jpg);
+		height: 450px;
+		margin-bottom: 20px;
+		
+	}
+	h2{
+		font-family: 'Lobster Two', cursive;
+	font-weight: bold;
+		text-align: center;
+		margin-top: 200px;
+		
+		
+		font-size: 40px;
+	}
+	.b{
+		margin-left: 450px;
+		margin-top: 30px;
+	}
+	.b:hover{
+		color: black;
+	}
+	img{
+		border-radius: 20px;
+	}
+	.progress {
+    height: 4px;
+    border-radius: 0;
+    background: #DDD;
+    margin-bottom: 20px;
+    width: 300px;
+    margin-left: 350px;
+
+   
+}
+
+
+.progress .progress-bar.progress-bar-warning{
+    background-color:  orange;
+
+}
+.b1{
+	margin-left: 130px;
+	background-color: white;
+	color: orange;
+	font-weight: bold;
+}
+.d{
+	background-color: #ededef;
+}
+	.e{
+		background-image: url(../images/footer2.jpg);
+		height: 200px;
+		margin-top: 20px;
+	}
+	.col-md-3{
+		text-align: center;
+		color: white;
+		font-weight: bold;
+
+	}
+	

@@ -1,0 +1,190 @@
+body{
+	font-family: 'Kanit', sans-serif;
+} 
+h3{
+   font-family: 'Lobster Two', cursive;
+   font-weight: bold;
+}
+
+	ul li{
+		list-style-type: none;
+		float: left;
+		color: white;
+
+
+	}
+	.navbar-nav ul li a{
+		padding-bottom: 20px;
+
+	}
+	
+	ul li a{
+		text-decoration: none;
+		color: white;
+		background-color: none;
+		padding: 30px;
+		margin: 10px;
+
+
+
+	}
+	 a:hover{
+		text-decoration: none;
+		color: black;
+
+
+		
+	}
+	nav{
+		background-color: orange;
+		height: 60px;
+		padding-bottom: 30px;
+		
+		font-size: 20px;
+		position: fixed;
+
+	}
+	
+	nav li a {
+    position: relative;
+    
+    padding: 10px 15px;
+
+}
+ .bar li a:hover {
+    text-decoration: none;
+    background-color: transparent !important;
+    color: black;
+}
+	.navbar-brand{
+		text-decoration: none;
+		color: white;
+		padding: 10px;
+		margin-top: 10px;
+
+
+	}
+	.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 0px !important;
+    border: 1px solid transparent;
+}
+.back{
+	background-image: url(../images/service.jpg);
+	height: 400px;
+}
+.mid{
+	text-align: center;
+	margin-top: 150px;
+	color: white;
+}
+.project {
+    margin-bottom: 30px;
+    vertical-align: top;
+    margin-right: 30px;
+    float: left;
+    cursor: pointer;
+    width:100%;
+}
+
+.project figure {
+    position: relative;
+    display: inline-block;
+}
+
+.project figure img {
+    width: 100%;
+}
+figcaption .project-details {
+    display: block;
+    font-size: 16px;
+  
+    color: #000;
+    
+    width: 100%;
+    margin: 0 auto 5px auto;
+   
+    overflow: hidden;
+}
+.project figure:hover figcaption {
+    background:#d81e05;
+}
+.project figure:hover figcaption .project-details {
+    color: #fff;
+}
+
+.project figure:hover .actions {
+    background-color: rgba(115,15,2,.8);
+    top: 40%;
+    font-size:2em;
+    font-weight:700;
+}
+
+.project figure .actions {
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    top: 70%;
+    left:0;
+    right:0;
+    z-index: 1;
+    opacity: 1;
+    background-color: rgba(29,29,29,.5);
+    -ms-transition: all .2s ease-out;
+    -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+    color: white;
+    font-size:1.5em;
+    padding:2%;
+    font-weight:bold;
+    text-align:center;
+}
+
+
+@media (min-width: 992px) {
+    .project figure .actions {
+    top: 60%;
+    left:0;
+    right:0;
+    font-size:1.5em;
+    padding:2%;
+    
+}
+.project figure:hover .actions {
+    top: 50%;
+    font-size:1.8em;
+    padding-top:0%;
+}
+}
+
+@media (min-width: 1200px) {
+    .project figure .actions {
+    top: 70%;
+    left:0;
+    right:0;
+    font-size:1em;
+    padding:2%;
+}
+.project figure:hover .actions {
+    top: 50%;
+    font-size:1.3em;
+}
+
+.footer{
+	background-image: url(../images/footer2.jpg);
+	height: 200px;
+}
+.f{
+	color: white;
+}
+.g{
+	text-align: center;
+}
+.h{
+	padding: 10px;
+	margin: 10px;
+	font-size: 15px;
+}
